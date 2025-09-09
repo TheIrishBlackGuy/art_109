@@ -1,0 +1,23 @@
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.square {
+    background-color:darkblue;
+    height: 125px;
+    border-radius: 25px;
+    margin: 50px auto;
+}
+
+.button-div {
+    text-align: center;
+    margin: 75px auto;
+
+
+}
+
+.button {
+    background-color: hotpink;
+    color: white;
+    padding: 5px;
+}
