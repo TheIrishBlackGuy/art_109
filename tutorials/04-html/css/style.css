@@ -2,23 +2,149 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-.square {
-    background-color:darkblue;
-    width: 125px;
-    height: 125px;
+.base {
+    background-color: white;
+    width: 200px;
+    height: 200px;
     border-radius: 25px;
     margin: 50px auto;
 }
 
+.face {
+    background-color:bisque;
+    width: 200px;
+    height: 175px;
+    border-radius: 25px;
+    margin: 50px auto;
+    transform: translate(0px, 25px);
+}
+
+.eye {
+    background-color:darkslategrey;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    transform: translate(25px, -125px);
+    /* margin: 50px 50px; */
+}
+
+.eye2 {
+    background-color:darkslategrey;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    transform: translate(125px, -150px);
+    /* margin: 50px auto; */
+}
+
+.mouth {
+    background-color:darkred;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin: 100px;
+    transform: translate(-50px, -225px);
+}
+
+.tongue {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+}
+
+.sideleftcorner {
+    background-color:darkblue;
+    width: 50px;
+    height: 25px;
+    border-radius: 0px 30px 0px 40px;
+    margin: 100px;
+    transform: translate(-100px, -625px);
+}
+
+.upleftcorner {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 0px 30px 0px 40px;
+    margin: 100px;
+    transform: translate(-100px, -500px);
+}
+
+.siderightcorner {
+    background-color:darkblue;
+    width: 50px;
+    height: 25px;
+    border-radius: 30px 0px 40px 0px;
+    margin: 100px;
+    transform: translate(50px, -900px);
+}
+
+.uprightcorner {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 30px 0px 40px 0px;
+    margin: 100px;
+    transform: translate(75px, -775px);
+}
+
+/* .sideleftcorner {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+} */
+
+/* .tongue {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+} */
+
+/* .tongue {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+} */
+
+/* .tongue {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+} */
+
+/* .tongue {
+    background-color:hotpink;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 100px;
+    transform: translate(-25px, -350px);
+} */
+
 .button-div {
     text-align: center;
     margin: 75px auto;
-
-
 }
 
 .button {
-    background-color: hotpink;
+    background-color: dodgerblue;
     color: white;
-    padding: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
 }
