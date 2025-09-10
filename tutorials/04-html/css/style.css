@@ -91,50 +91,50 @@
     transform: translate(75px, -775px);
 }
 
-/* .sideleftcorner {
-    background-color:hotpink;
-    width: 50px;
-    height: 25px;
-    border-radius: 10px;
+.topleftside {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 40px 0px 30px 0px;
     margin: 100px;
-    transform: translate(-25px, -350px);
-} */
+    transform: translate(-100px, -1175px);
+}
 
-/* .tongue {
-    background-color:hotpink;
-    width: 50px;
-    height: 25px;
-    border-radius: 10px;
+.toprightside {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 0px 40px 0px 30px;
     margin: 100px;
-    transform: translate(-25px, -350px);
-} */
+    transform: translate(75px, -1325px);
+}
 
-/* .tongue {
-    background-color:hotpink;
-    width: 50px;
-    height: 25px;
-    border-radius: 10px;
+.leftear {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 10px 10px 0px 50px;
     margin: 100px;
-    transform: translate(-25px, -350px);
-} */
+    transform: translate(50px, -1500px);
+}
 
-/* .tongue {
-    background-color:hotpink;
-    width: 50px;
-    height: 25px;
-    border-radius: 10px;
+.rightear {
+    background-color:darkblue;
+    width: 25px;
+    height: 50px;
+    border-radius: 10px 10px 50px 0px;
     margin: 100px;
-    transform: translate(-25px, -350px);
-} */
+    transform: translate(-75px, -1650px);
+}
 
-/* .tongue {
-    background-color:hotpink;
-    width: 50px;
+.forehead {
+    background-color:darkblue;
+    width: 100px;
     height: 25px;
-    border-radius: 10px;
+    border-radius: 0px 0px 20px 20px;
     margin: 100px;
-    transform: translate(-25px, -350px);
-} */
+    transform: translate(-50px, -1775px);
+}
 
 .button-div {
     text-align: center;
