@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>HTML for Tutorial 2</h1>
+        <h1 contenteditable="true">HTML for Tutorial 2</h1>
         <nav>
             <ul>
                 <li><a href="#cat">Cat</a></li>
@@ -20,31 +20,118 @@
             </ul>
         </nav>
         <div>
-
-        <img src="" alt="">
+            <br>
+            <!-- <img src="/imgs/cat-dog-owl.png" alt=""> -->
+            <img src="imgs/cat-dog-owl.png" alt="cat, dog and owl">
         </div>
+
+        <div>
+            <select>
+                <option value="">--Please choose an animal--</option>
+                <ul>
+                    <option>Cat</option>
+                    <option>Dog</option>
+                    <option>Owl</option>
+                </ul>
+            </select>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Select a favorite animal:</legend>
+
+                <div>
+                    <input type="radio" id="cats" name="drone" value="cats" checked />
+                    <label for="cats">Cats</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dogs" name="drone" value="dogs" />
+                    <label for="dog">Dogs</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="owls" name="drone" value="owls" />
+                    <label for="owls">Owls</label>
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>How would you rank these animals:</legend>
+                <div>
+                    <input type="range" min="0" max="5" step="1" />
+                    <label>Cats</label>
+                </div>
+                <div>
+                    <input type="range" min="0" max="5" step="1" />
+                    <label>Dogs</label>
+                </div>
+                <div>
+                    <input type="range" min="0" max="5" step="1" />
+                    <label>Owls</label>
+                </div>
+            </fieldset>
+        </div>
+
     </header>
     <main>
         <section id="cat">
-            <h2>meow</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dolorum eveniet, possimus assumenda
-                optio facere eius consequuntur ipsum sed ad tempora dolor, quidem sapiente neque, mollitia harum
-                praesentium. Mollitia, vitae.</p>
+            <h2>Cat Stuff</h2>
+            <ul>
+                <li>Cats are lactose intolerant.</li>
+                <li>Cats cannot taste anything sweet.</li>
+                <li>Cats only meow to humans.</li>
+                <li>Cats sleep 70% of their lives.</li>
+                <li>Cats have a powerful memory.</li>
+            </ul>
+            <details>
+                <summary>Cat joke</summary>
+                <details>
+                    <summary>Why are cats so good at video games?</summary>
+                    <summary>Because they have 9 lives, of course!</summary>
+                </details>
+            </details>
         </section>
         <section id="dog">
-            <h2>woof</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dolorum eveniet, possimus assumenda
-                optio facere eius consequuntur ipsum sed ad tempora dolor, quidem sapiente neque, mollitia harum
-                praesentium. Mollitia, vitae.</p>
+            <h2>Dog Stuff</h2>
+            <ul>
+                <li>Dogs sweat through their feet.</li>
+                <li>Dogs can smell your feelings.</li>
+                <li>Dogs can detect human illness.</li>
+                <li>Dogs have incredible hearing.</li>
+                <li>Dogs have ear mobility.</li>
+            </ul>
+            <details>
+                <summary>Dog joke</summary>
+                <details>
+                    <summary>I can't take my dog down to the local pond anymore, because the ducks keep attacking him.
+                    </summary>
+                    <summary>It's my fault for choosing a pure bread dog.</summary>
+                </details>
+            </details>
         </section>
         <section id="owl">
-            <h2>hoot</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dolorum eveniet, possimus assumenda
-                optio facere eius consequuntur ipsum sed ad tempora dolor, quidem sapiente neque, mollitia harum
-                praesentium. Mollitia, vitae.</p>
+            <h2>Owl Stuff</h2>
+            <ul>
+                <li>Female owls are bigger than males.</li>
+                <li>Owls can rotate their heads almost all the way around.</li>
+                <li>Owls do sleep standing up.</li>
+                <li>Owls are covered in extremely soft feathers that provide insulation during cold temperatures.</li>
+                <li>Owls range in size from teeny-tiny to large and imposing.</li>
+            </ul>
+            <details>
+                <summary>Owl joke</summary>
+                <details>
+                    <summary>What do you call a magical owl?</summary>
+                    <summary>HOOOO-Dini!</summary>
+                </details>
+            </details>
         </section>
 
     </main>
+    <br>
     <footer>= = = = = = = = =</footer>
 </body>
 
