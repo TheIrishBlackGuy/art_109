@@ -1,0 +1,142 @@
+body {
+
+    animation: change-color 8s infinite alternate;
+}
+
+@keyframes change-color {
+
+    0% {
+        background-color: rgb(21, 196, 68);
+    }
+
+    50% {
+        background-color: rgb(59, 11, 234);
+    }
+
+    100% {
+        background-color: rgb(224, 8, 8);
+    }
+
+}
+
+header {
+    text-align: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+.section-1 {
+
+    animation: rotation 3s infinite;
+}
+
+@keyframes rotation {
+
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    50% {
+        transform: skew(100deg, 100deg);
+    }
+
+
+}
+
+.section-2 {
+
+    box-sizing: border-box;
+    padding: auto;
+    margin-top: -200px;
+}
+
+.section-3{
+
+ animation: rotation2 6s infinite;
+
+}
+
+@keyframes rotation2 {
+
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    50% {
+        transform: skew(200deg, 200deg);
+    }
+
+
+}
+img {
+    max-width: 300px;
+}
+
+h1 {}
+
+p {}
+
+.base{
+    background-color: aqua;
+    width: 320px;
+    height: 175px;
+    border-radius: 50px;
+    margin: 35px;
+   transform: translate(300px,300px);
+   animation: rotation 2s infinite; 
+   transform: translate(50px,50px);
+   animation: rotation 2s infinite; 
+   transform: translate(400px,100px); 
+   transform: translate(100px,400px); 
+ animation: rotation2 2s infinite;
+}
+
+.base2{
+      background-color: gold;
+    width: 320px;
+    height: 175px;
+    border-radius: 50px;
+    margin: -105px;
+    margin-top: -200px;
+   transform: translate(300px,-50px);
+   
+ animation: rotation2 2s infinite;
+
+
+}
+
+.base3{
+      background-color: red;
+    width: 320px;
+    height: 175px;
+    border-radius: 50px;
+    margin: 35px;
+    margin-top: -300px;
+   transform: translate(100px,700px);
+  
+ animation: rotation2 2s infinite;
+
+}
+
+.base4{
+      background-color: black;
+    width: 320px;
+    height: 175px;
+    border-radius: 50px;
+    margin: 35px;
+    margin-top: -400px;
+   transform: translate(200px,450px);
+   
+ animation: rotation2 2s infinite;
+}
+
+.ron{
+    transform: translate(-300px,0);
+
+}
