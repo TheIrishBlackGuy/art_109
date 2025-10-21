@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "art109_9_9",
+			"path": "../.."
+		},
+		{
+			"name": "extra-credit-funky",
+			"path": "../../../../../Downloads/extra-credit-funky/extra-credit-funky"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "art109_9_9"
+	}
+}
