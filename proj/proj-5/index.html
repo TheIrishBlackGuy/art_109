@@ -6,12 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        var c = 0;
+        function myCounter() {
+            document.getElementById("demo").innerHTML = ++c;
+        }
+    </script>
+
 </head>
 
 <body class="intro">
     <h1 class="center-div">
         Welcome to The Maze
     </h1>
+
+    <button onClick="myTimer = setInterval(myCounter, 1000)">Start counter!</button>
+
+    <p id="demo">Click on the button above and I will count forever.</p>
+
+    <button onClick="clearInterval(myTimer)">Stop counter!</button>
 
     <!-- <div class="intro"> -->
     <p class="center-div" style="font-size:17px;">
@@ -22,6 +36,9 @@
         Good luck getting through this.<br><br>
         To be played on monitor
     </p>
+
+
+
     <!-- </div> -->
     <!-- <br><br> -->
     <!-- <div class="intro"><br> -->
