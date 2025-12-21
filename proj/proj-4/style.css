@@ -1,0 +1,22 @@
+body {
+    color: rgb(55, 0, 136);
+    background-color: rgb(79, 167, 211);
+}
+
+p {
+    /* text-align: center; */
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(109, 226, 226);
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+h1, h2 {
+        text-align: center;
+
+}
